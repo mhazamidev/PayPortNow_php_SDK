@@ -1,0 +1,17 @@
+{
+  "name": "payportnow/php-sdk",
+  "description": "PHP SDK for PayPortNow crypto payment integration",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "PayPortNow\\": "src/PayPortNow/"
+    }
+  },
+  "require": {
+    "php": ">=7.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  }
+}
