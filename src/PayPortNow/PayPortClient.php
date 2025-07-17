@@ -59,7 +59,7 @@ class PayPortClient
 
         $order = $encoded . $this->secret;
 
-        return "https://payportnow.com/gate?order=" . urlencode($order);
+        return "https://gate.payportnow.com?order=" . urlencode($order);
     }
 
     private function encryptData($plaintext, $key, $iv)
